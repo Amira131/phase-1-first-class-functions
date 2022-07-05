@@ -1,6 +1,6 @@
 
 
-const receivesAFunction = (cb) => {
+/*const receivesAFunction = (cb) => {
     cb()
 }
 
@@ -23,4 +23,7 @@ function returnsANamedFunction(){
 //     return function () {}
 // }
 
-const returnsAnAnonymousFunction = () =>{return function(){}}
+const returnsAnAnonymousFunction = () =>{return function(){}}*/
+
+
+const receivesAFunction = cb => cb
